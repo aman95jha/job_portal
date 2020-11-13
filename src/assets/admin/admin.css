@@ -1,0 +1,31 @@
+.admin-sidenav-left {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0px 10px;
+  background-color: rgb(32, 32, 87);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sidenav-nav {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  color: white;
+  font-weight: 900;
+  padding: 7px 10px 7px 20px;
+}
+
+.dashboar-content-container {
+  padding: 40px 0px;
+}
+
+.action-button {
+  padding: 0px 10px;
+  background-color: rgb(118, 185, 63);
+  border-radius: 20px;
+  cursor: pointer;
+}

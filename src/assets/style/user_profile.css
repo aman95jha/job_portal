@@ -1,0 +1,57 @@
+.job-seeker-multilevelform-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f7f9;
+  min-height: 80vh;
+
+  padding: 50px 0px;
+}
+
+.job-seeker-multilevelform {
+  width: 70%;
+  border: 1px solid #eee;
+  padding: 20px 60px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.job-seeker-multilevelform-header {
+  text-align: center;
+}
+
+.prev-btn-multilevel-form {
+  margin-right: 40px;
+}
+
+.admin-sidenav-left {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0px 10px;
+  background-color: rgb(32, 32, 87);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.sidenav-nav {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  color: white;
+  font-weight: 900;
+  padding: 7px 10px 7px 20px;
+}
+
+.dashboar-content-container {
+  padding: 40px 0px;
+}
+
+.action-button {
+  padding: 0px 10px;
+  background-color: rgb(118, 185, 63);
+  border-radius: 20px;
+  cursor: pointer;
+}
